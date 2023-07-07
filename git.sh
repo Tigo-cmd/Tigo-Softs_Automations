@@ -21,4 +21,8 @@ read commit
 
 git commit -m "$commit" || { echo "Failed to commit changes."; exit 1; }
 
-git push || { echo "Failed to push changes."; exit 1; }
+# Prompt to know what branch user is pushing
+echo "What branch do you want to push?"
+read -r branch
+
+git push --set-upstream origin "$branch" || { echo "Failed to push changes."; exit 1; }
