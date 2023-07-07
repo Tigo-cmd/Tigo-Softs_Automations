@@ -1,1 +1,1 @@
-I'm testing code's functionality
+Testing code's functionality.
