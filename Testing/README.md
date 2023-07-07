@@ -1,1 +1,1 @@
-Just texting code's functionality
+Justing testign code's functionality
